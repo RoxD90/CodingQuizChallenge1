@@ -1,4 +1,4 @@
-// list of all questions, choices, and answers
+// give you an array of all the questions they will be on display
 var questions = [
   {
     title: 'Commonly used data types DO NOT include:',
