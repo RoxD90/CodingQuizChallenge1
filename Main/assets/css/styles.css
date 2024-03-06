@@ -1,23 +1,18 @@
-/*format the body section font-size and text*/
 body {
   font-family: Arial;
   font-size: 120%;
-  background-color: #bbbbd8;
 }
 
-/* format the color and text for anything with the a ID*/
 a {
-  color: #2d0658;
+  color: #563d7c;
   text-decoration: none;
   transition: color 0.1s;
 }
 
-/* hover over this a id will make it turn the color below*/
 a:hover {
   color: #8570a5;
 }
 
-/*format the button*/
 button {
   display: inline-block;
   margin: 5px;
@@ -31,68 +26,54 @@ button {
   transition: background-color 0.1s;
 }
 
-/*hovering over the button wiil change the color to a light purple */
 button:hover {
-  background-color: #13e1f0;
+  background-color: #8570a5;
 }
 
-/*choices button id*/
 .choices button {
   display: block;
 }
 
-/* input of user will be font-size of 100%*/
 input[type="text"] {
   font-size: 100%;
 }
 
-
-/*to format ordered list*/
 ol {
   padding-left: 0px;
   max-height: 400px;
   overflow: auto;
 }
 
-
-/*format list*/
 li {
   padding: 5px;
   list-style: decimal inside none;
 }
 
-
-/*odd list child will be a different color */
 li:nth-child(odd) {
   background-color: #f3edfc;
 }
 
-/*wrapper id which help keeps the words in a certain box format */
 .wrapper {
   margin: 100px auto 0 auto;
   max-width: 600px;
 }
 
-/*hide id*/
 .hide {
   display: none;
 }
 
-/*align start button to center*/
 .start {
   text-align: center;
 }
 
-/*be able to position the scores within a certain box*/
 .scores {
   position: absolute;
   top: 10px;
   left: 10px;
 }
 
-/* format feedback with font-style and font-size. margin*/
 .feedback {
-  font-style: bold;
+  font-style: italic;
   font-size: 120%;
   margin-top: 20px;
   padding-top: 10px;
@@ -100,8 +81,6 @@ li:nth-child(odd) {
   border-top: 2px solid #ccc;
 }
 
-
-/*format the timer*/
 .timer {
   position: absolute;
   top: 10px;
